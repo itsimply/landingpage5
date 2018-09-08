@@ -1,0 +1,66 @@
+.selling {
+    background-color: $footer-bg;
+    padding: 70px 0;
+    text-align: center;
+    
+    .selling__column {
+        padding: 3em;
+        
+        h3 {
+        margin-top: 0.5em;
+        }
+        
+        h3, p {
+        margin-bottom: 1em;
+        }
+
+        
+        @include media-breakpoint-up(lg) {
+        // Larger than lg: 992px
+        @include make-col(4);
+        display: flex;
+        flex-direction: column;
+        min-height: 410px;
+        align-items: center;
+
+    .selling__button {
+       margin-top: auto !important;
+    }
+    }
+        
+    @include media-breakpoint-down(md) {
+        @include make-col(12);
+    }
+        }
+    
+
+    h2, h3, p {
+        color: #fff;
+        margin-bottom: 0;
+    }
+    
+    .separator {
+        margin: 18px 0 50px 0;
+        width: 100%;
+    }
+    
+    .btn-primary-sm {
+     margin-top: 15px;
+    }
+    
+    .highlights {
+        background-color: lighten($footer-bg, 2%);
+        @extend .shadow-lg;
+    }
+    
+     .highlights-2 {
+        background-color: lighten($primary-color, 2%);
+        @extend .shadow-lg;
+        
+         h2, h3, p {
+             color: black;
+         }
+    }
+    
+    
+} 

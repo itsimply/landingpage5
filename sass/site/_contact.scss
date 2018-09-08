@@ -1,0 +1,27 @@
+.contact-section {
+    background-color: $footer-bg;
+    padding: 70px 0;
+    color: $white;
+    
+    ul.social-icon  {
+        text-align: left;
+        padding: 0;
+    }
+    
+    .social-icon li {
+     
+        list-style: none;
+        padding-right: 3px;
+        display: inline-block;
+        transition: opacity .3s;
+        
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+    
+    form input {
+        border: 0;
+        border-radius: 0;
+    }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "LukInteractive",
+  "version": "1.0.0",
+  "description": "Landing Page",
+  "main": "",
+  "author": "Lukasz Fedor",
+  "devDependencies": {
+    "bootstrap": "^4.1.2",
+    "browser-sync": "^2.23.5",
+    "critical": "^0.8.4",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^2.2.0",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-include": "^1.1.1",
+    "gulp-jshint": "^1.10.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.0.0",
+    "gulp-uglify": "^1.2.0",
+    "gulp-watch": "^4.2.4",
+    "gulp-zip": "^3.2.0",
+    "imagemin-pngcrush": "^5.1.0",
+    "jshint-stylish": "^1.0.2",
+    "popper.js": "^1.13.0"
+  },
+  "dependencies": {
+    "gulp-purifycss": "^0.2.0",
+    "imagemin-jpeg-recompress": "^5.1.0",
+    "imagemin-jpegoptim": "^5.2.0",
+    "imagemin-optipng": "^5.2.1",
+    "purify-css": "^1.2.5"
+  }
+}

@@ -1,0 +1,94 @@
+//* {
+//    border: 1px solid red;
+//}
+
+#main-header {
+    background-color: $secondary-color;
+    color: #fff;
+    
+}
+
+/* NAVBAR */
+
+#navbar {
+    text-transform: uppercase;
+    height: 80px;
+}
+
+#navbar li {
+    display: inline;
+    float: right;
+    padding-right: 30px;
+    list-style: none;
+    margin-top: 15px;
+   
+}
+
+#navbar li:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+     transition: 0.2s;
+}
+
+#navbar li.current a, #navbar a:hover  {
+    color: #56a79a;
+    border-bottom: 3px solid #56a79a;
+    padding-bottom: 3px;
+}
+
+/*  Main Banner */
+
+.main { 
+    min-height: 474px;
+    background: url(images/bg_slider@1X.png) no-repeat center center;
+    background-size: cover;
+    padding-top: 30px;
+    
+     @include media-breakpoint-down(md) {
+             min-height: 374px;
+        }
+    
+    
+    .main__image {
+        text-align: right;
+         
+        @include media-breakpoint-down(md) {
+            text-align: center;
+        }
+        
+    }
+    
+    @include media-breakpoint-down(md) {
+        padding-bottom: 3em;
+    }
+
+ h1, p {
+    color: #fff;
+    margin-bottom: 30px;
+     
+      @include media-breakpoint-down(md) {
+        margin-top: 1em;
+    }
+     
+}
+    .btn-primary {
+     margin-top: 20px;   
+        @include media-breakpoint-down(md) {
+            display: block;
+            width: 100%;
+        }
+    }
+    
+     
+         .btn-primary {
+             display: block;
+         }
+    }

@@ -1,0 +1,48 @@
+/* Divider Portfolio */
+
+.portoflio-divider {
+      background-color: lighten($footer-bg,30%);  
+    background-image: url("https://picsum.photos/g/1600/1200");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  height: 425px;
+  color: #fff;
+    
+    h1 {
+        font-size: 48px;
+    }
+    p {
+        font-size: 24px;
+    }
+    
+     @include media-breakpoint-down(md) {
+        height: 340px;
+    }
+}
+
+/* Divider Contact */
+
+.contact-divider {
+    
+  background-color: lighten($footer-bg,30%);  
+  height: 425px;
+    background-image: url("https://picsum.photos/g/1600/1200");
+    background-repeat: no-repeat;
+    background-size: cover;
+  color: #fff;
+  margin-top: 80px;
+    
+     @include media-breakpoint-down(md) {
+        height: 340px;
+    }
+    
+}
+
+/* Divider Map */
+
+.map-section {
+    height: 525px;
+    background: url('images/map@1X.png') no-repeat center center;
+    background-size: cover;
+}

@@ -1,0 +1,28 @@
+.quotes-section {
+    
+    .quotes-text {
+        text-align: left;
+        font-size: 18px;
+        position: relative;
+        
+        &:after {
+            display: block;
+            content: "";
+            width: 19px;
+            height: 15px;
+            position: absolute;
+            top: 0px;
+            left: -25px;
+            background: url('images/quotes@1X.png') no-repeat;
+            z-index: 99;
+        }
+    }
+    
+    
+    
+    .name {
+        font-size: 24px;
+    }
+    
+   
+}
